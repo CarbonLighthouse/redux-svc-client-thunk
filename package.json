@@ -23,7 +23,9 @@
     "nyc": "^10.1.2",
     "watch": "^1.0.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "redux-actions": "^2.0.3"
+  },
   "scripts": {
     "ci": "npm run lint && npm run cov",
     "cov": "nyc --reporter=html --reporter=text npm test",
