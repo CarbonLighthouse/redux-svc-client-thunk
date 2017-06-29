@@ -23,7 +23,9 @@
     "nyc": "^10.1.2",
     "watch": "^1.0.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  },
   "scripts": {
     "ci": "npm run lint && npm run cov",
     "cov": "nyc --reporter=html --reporter=text npm test",
