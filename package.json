@@ -17,13 +17,15 @@
   },
   "homepage": "https://github.com/CarbonLighthouse/redux-svc-client-thunk#readme",
   "devDependencies": {
-    "eslint": "^3.14.1",
-    "eslint-config-xo-space": "^0.15.0",
-    "mocha": "^3.2.0",
-    "nyc": "^10.1.2",
-    "watch": "^1.0.1"
+    "eslint": "^3.19.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "mocha": "^3.4.2",
+    "nyc": "^11.0.3",
+    "sinon": "^2.3.6",
+    "watch": "^1.0.2"
   },
   "dependencies": {
+    "lodash.get": "^4.4.2",
     "redux-actions": "^2.0.3"
   },
   "scripts": {
