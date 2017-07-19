@@ -1,6 +1,6 @@
 {
   "name": "redux-svc-client-thunk",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Thunk action for using svc-client with Redux.",
   "repository": "CarbonLighthouse/redux-svc-client-thunk",
   "author": {
