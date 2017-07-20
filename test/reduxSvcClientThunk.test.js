@@ -292,7 +292,7 @@ describe('makeThunks', () => {
     const thunks = reduxSvc.makeThunks('test', ['myMethod']);
 
     function harness() {
-      thunks.myMethod(params)(dispatch, null, services)
+      thunks.myMethod(params)(dispatch, null, services);
     }
 
     assert.throws(harness, TypeError, 'methodAction is unexpected type, must be strings or function');
